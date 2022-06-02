@@ -1,0 +1,82 @@
+[
+    {
+        "type":"text",
+        "name":"firstName",
+        "placeholder":"First Name",
+        "label":"First Name",
+        "value":"",
+        "validation":[
+            {
+                "type":"required"
+            },
+            {
+                "type":"minLength",
+                "value":5
+            }
+        ]
+
+    },
+    {
+        "type":"text",
+        "name":"lastName",
+        "placeholder":"Last Name",
+        "label":"Last Name",
+        "value":"",
+        "validation":[
+            {
+                "type":"required"
+            }
+        ]
+
+    },
+    {
+        "type":"email",
+        "name":"email",
+        "placeholder":"Email Address",
+        "label":"Email Address",
+        "value":"",
+        "validation":[
+            {
+                "type":"required"
+            },
+            {
+                "type":"email"
+            }
+        ]
+
+    },
+    {
+        "type":"select",
+        "name":"favoriteGame",
+        "label":"Favorite Game",
+        "value":"",
+        "options":[
+            {
+                "id":1,
+                "label":"League of Legends"
+            },
+            {
+                "id":2,
+                "label":"Counter Strike"
+            },
+            {
+                "id":3,
+                "label":"Dota 2"
+            },
+            {
+                "id":4,
+                "label":"Overwatch"
+            },
+            {
+                "id":5,
+                "label":"World of Warcraft"
+            }
+        ],
+        "validation":[
+            {
+                "type":"required"
+            }
+        ]
+
+    }
+]
